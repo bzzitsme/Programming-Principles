@@ -1,0 +1,7 @@
+C:\Users\User\Desktop\PP2Labs\Lab2MaxMin\Lab2MaxMin\bin\Debug\Lab2MaxMin.exe.config
+C:\Users\User\Desktop\PP2Labs\Lab2MaxMin\Lab2MaxMin\bin\Debug\Lab2MaxMin.exe
+C:\Users\User\Desktop\PP2Labs\Lab2MaxMin\Lab2MaxMin\bin\Debug\Lab2MaxMin.pdb
+C:\Users\User\Desktop\PP2Labs\Lab2MaxMin\Lab2MaxMin\obj\Debug\Lab2MaxMin.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\PP2Labs\Lab2MaxMin\Lab2MaxMin\obj\Debug\Lab2MaxMin.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\PP2Labs\Lab2MaxMin\Lab2MaxMin\obj\Debug\Lab2MaxMin.exe
+C:\Users\User\Desktop\PP2Labs\Lab2MaxMin\Lab2MaxMin\obj\Debug\Lab2MaxMin.pdb
