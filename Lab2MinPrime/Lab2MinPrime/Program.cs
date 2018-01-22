@@ -1,0 +1,54 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.IO;
+
+namespace Lab2MinPrime
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            List<int> Vector = new List<int>();
+            string text = File.ReadAllText(@"C:\Users\User\Desktop\PP2Labs\Lab2MinPrime\input.txt");
+            string[] a = text.Split();
+            int[] n = new int[a.Count()];
+            string lmao;
+            for(int i = 0; i < a.Length; i++)
+            {
+                n[i] = int.Parse(a[i]);
+                bool Love = true;
+                for(int j = 2; j*j <= n[i]; j++)
+                {
+                    if(n[i] % j == 0)
+                    {
+                        Love = false;
+                        break;
+                    }
+                }
+                if(Love & n[i]!= 1)
+                {
+                    Vector.Add(n[i]);
+                }
+            }
+            Vector.Sort();
+            int mini = new int();
+            for(int i = 0; i < Vector.Count; i++)
+            {
+                if (Vector.Count > 0)
+                {
+                    mini = Vector[i];
+                    System.IO.File.WriteAllText(@"C:\Users\User\Desktop\PP2Labs\Lab2MinPrime\output.txt", Convert.ToString(mini));
+                }
+                else
+                {
+                    lmao = "There are no primes";
+                    System.IO.File.WriteAllText(@"C:\Users\User\Desktop\PP2Labs\Lab2MinPrime\output.txt", lmao);
+                }
+                break;
+            }
+        }
+    }
+}

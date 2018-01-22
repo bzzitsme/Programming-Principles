@@ -1,0 +1,7 @@
+C:\Users\User\Desktop\PP2Labs\Lab2MinPrime\Lab2MinPrime\bin\Debug\Lab2MinPrime.exe.config
+C:\Users\User\Desktop\PP2Labs\Lab2MinPrime\Lab2MinPrime\bin\Debug\Lab2MinPrime.exe
+C:\Users\User\Desktop\PP2Labs\Lab2MinPrime\Lab2MinPrime\bin\Debug\Lab2MinPrime.pdb
+C:\Users\User\Desktop\PP2Labs\Lab2MinPrime\Lab2MinPrime\obj\Debug\Lab2MinPrime.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\PP2Labs\Lab2MinPrime\Lab2MinPrime\obj\Debug\Lab2MinPrime.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\PP2Labs\Lab2MinPrime\Lab2MinPrime\obj\Debug\Lab2MinPrime.exe
+C:\Users\User\Desktop\PP2Labs\Lab2MinPrime\Lab2MinPrime\obj\Debug\Lab2MinPrime.pdb
