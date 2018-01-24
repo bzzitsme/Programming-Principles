@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C52D9698-16EF-4B2A-A2D2-DE58FECCB017}</ProjectGuid>
+    <ProjectGuid>{DB1B2C07-1729-46D9-9E1B-DB53A58D063C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Lab2ComplexNumbers</RootNamespace>
-    <AssemblyName>Lab2ComplexNumbers</AssemblyName>
+    <RootNamespace>Lab3FARMANAGER</RootNamespace>
+    <AssemblyName>Lab3FARMANAGER</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

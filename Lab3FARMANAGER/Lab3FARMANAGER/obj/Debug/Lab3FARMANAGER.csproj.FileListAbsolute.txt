@@ -1,0 +1,7 @@
+C:\Users\User\Desktop\PP2Labs\Lab3FARMANAGER\Lab3FARMANAGER\bin\Debug\Lab3FARMANAGER.exe.config
+C:\Users\User\Desktop\PP2Labs\Lab3FARMANAGER\Lab3FARMANAGER\bin\Debug\Lab3FARMANAGER.exe
+C:\Users\User\Desktop\PP2Labs\Lab3FARMANAGER\Lab3FARMANAGER\bin\Debug\Lab3FARMANAGER.pdb
+C:\Users\User\Desktop\PP2Labs\Lab3FARMANAGER\Lab3FARMANAGER\obj\Debug\Lab3FARMANAGER.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\PP2Labs\Lab3FARMANAGER\Lab3FARMANAGER\obj\Debug\Lab3FARMANAGER.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\PP2Labs\Lab3FARMANAGER\Lab3FARMANAGER\obj\Debug\Lab3FARMANAGER.exe
+C:\Users\User\Desktop\PP2Labs\Lab3FARMANAGER\Lab3FARMANAGER\obj\Debug\Lab3FARMANAGER.pdb
