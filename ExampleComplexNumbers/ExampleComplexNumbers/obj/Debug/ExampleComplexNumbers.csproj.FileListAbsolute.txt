@@ -1,7 +1,0 @@
-C:\Users\User\Desktop\Doing Myself\ExampleComplexNumbers\ExampleComplexNumbers\obj\Debug\ExampleComplexNumbers.csprojResolveAssemblyReference.cache
-C:\Users\User\Desktop\Doing Myself\ExampleComplexNumbers\ExampleComplexNumbers\obj\Debug\ExampleComplexNumbers.csproj.CoreCompileInputs.cache
-C:\Users\User\Desktop\Doing Myself\ExampleComplexNumbers\ExampleComplexNumbers\bin\Debug\ExampleComplexNumbers.exe.config
-C:\Users\User\Desktop\Doing Myself\ExampleComplexNumbers\ExampleComplexNumbers\bin\Debug\ExampleComplexNumbers.exe
-C:\Users\User\Desktop\Doing Myself\ExampleComplexNumbers\ExampleComplexNumbers\bin\Debug\ExampleComplexNumbers.pdb
-C:\Users\User\Desktop\Doing Myself\ExampleComplexNumbers\ExampleComplexNumbers\obj\Debug\ExampleComplexNumbers.exe
-C:\Users\User\Desktop\Doing Myself\ExampleComplexNumbers\ExampleComplexNumbers\obj\Debug\ExampleComplexNumbers.pdb

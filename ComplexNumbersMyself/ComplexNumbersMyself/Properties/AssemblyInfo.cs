@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
-[assembly: AssemblyTitle("ExampleComplexNumbers")]
+[assembly: AssemblyTitle("ComplexNumbersMyself")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ExampleComplexNumbers")]
+[assembly: AssemblyProduct("ComplexNumbersMyself")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID служит для идентификации библиотеки типов, если этот проект будет видимым для COM
-[assembly: Guid("bf3910ef-65ff-4a3f-83f6-90e67e333bf2")]
+[assembly: Guid("514abaee-0da5-46e4-b248-79d6b16d2a83")]
 
 // Сведения о версии сборки состоят из следующих четырех значений:
 //
