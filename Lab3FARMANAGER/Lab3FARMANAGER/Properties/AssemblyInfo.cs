@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
-[assembly: AssemblyTitle("Lab3FARMANAGER")]
+[assembly: AssemblyTitle("lab3farmanager")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Lab3FARMANAGER")]
+[assembly: AssemblyProduct("lab3farmanager")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID служит для идентификации библиотеки типов, если этот проект будет видимым для COM
-[assembly: Guid("db1b2c07-1729-46d9-9e1b-db53a58d063c")]
+[assembly: Guid("8fee3243-f883-4df2-bcaa-6109b45f3307")]
 
 // Сведения о версии сборки состоят из следующих четырех значений:
 //

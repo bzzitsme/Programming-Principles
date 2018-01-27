@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab3FARMANAGER", "Lab3FARMANAGER\Lab3FARMANAGER.csproj", "{DB1B2C07-1729-46D9-9E1B-DB53A58D063C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab3farmanager", "lab3farmanager\lab3farmanager.csproj", "{8FEE3243-F883-4DF2-BCAA-6109B45F3307}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DB1B2C07-1729-46D9-9E1B-DB53A58D063C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DB1B2C07-1729-46D9-9E1B-DB53A58D063C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DB1B2C07-1729-46D9-9E1B-DB53A58D063C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DB1B2C07-1729-46D9-9E1B-DB53A58D063C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FEE3243-F883-4DF2-BCAA-6109B45F3307}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FEE3243-F883-4DF2-BCAA-6109B45F3307}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FEE3243-F883-4DF2-BCAA-6109B45F3307}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FEE3243-F883-4DF2-BCAA-6109B45F3307}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {C33A92D7-0427-4E1C-9E67-4F03E3A4BA8F}
+		SolutionGuid = {FD815D94-6704-422B-95BE-D66984A78AA3}
 	EndGlobalSection
 EndGlobal

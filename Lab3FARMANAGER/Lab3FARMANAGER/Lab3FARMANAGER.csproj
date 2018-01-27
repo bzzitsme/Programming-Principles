@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DB1B2C07-1729-46D9-9E1B-DB53A58D063C}</ProjectGuid>
+    <ProjectGuid>{8FEE3243-F883-4DF2-BCAA-6109B45F3307}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Lab3FARMANAGER</RootNamespace>
-    <AssemblyName>Lab3FARMANAGER</AssemblyName>
+    <RootNamespace>lab3farmanager</RootNamespace>
+    <AssemblyName>lab3farmanager</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
