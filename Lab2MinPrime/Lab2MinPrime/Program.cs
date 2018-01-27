@@ -34,18 +34,15 @@ namespace Lab2MinPrime
                 }
             }
             Vector.Sort();
-            int mini = new int();
+            if(Vector.Count == 0)
+            {
+                File.WriteAllText(@"C:\Users\User\Desktop\PP2Labs\Lab2MinPrime\output.txt", "There are no primes");
+            }
             for(int i = 0; i < Vector.Count; i++)
             {
                 if (Vector.Count > 0)
                 {
-                    mini = Vector[i];
-                    System.IO.File.WriteAllText(@"C:\Users\User\Desktop\PP2Labs\Lab2MinPrime\output.txt", Convert.ToString(mini));
-                }
-                else
-                {
-                    lmao = "There are no primes";
-                    System.IO.File.WriteAllText(@"C:\Users\User\Desktop\PP2Labs\Lab2MinPrime\output.txt", lmao);
+                File.WriteAllText(@"C:\Users\User\Desktop\PP2Labs\Lab2MinPrime\output.txt", Convert.ToString(Vector[i]));
                 }
                 break;
             }
