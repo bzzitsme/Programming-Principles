@@ -1,0 +1,7 @@
+C:\Users\User\Desktop\Doing Myself\CheckingFolderText\CheckingFolderText\bin\Debug\CheckingFolderText.exe.config
+C:\Users\User\Desktop\Doing Myself\CheckingFolderText\CheckingFolderText\bin\Debug\CheckingFolderText.exe
+C:\Users\User\Desktop\Doing Myself\CheckingFolderText\CheckingFolderText\bin\Debug\CheckingFolderText.pdb
+C:\Users\User\Desktop\Doing Myself\CheckingFolderText\CheckingFolderText\obj\Debug\CheckingFolderText.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Doing Myself\CheckingFolderText\CheckingFolderText\obj\Debug\CheckingFolderText.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Doing Myself\CheckingFolderText\CheckingFolderText\obj\Debug\CheckingFolderText.exe
+C:\Users\User\Desktop\Doing Myself\CheckingFolderText\CheckingFolderText\obj\Debug\CheckingFolderText.pdb

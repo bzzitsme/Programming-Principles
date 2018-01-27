@@ -1,0 +1,7 @@
+C:\Users\User\Desktop\Doing Myself\Cursor\Cursor\obj\Debug\Cursor.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Doing Myself\Cursor\Cursor\obj\Debug\Cursor.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Doing Myself\Cursor\Cursor\bin\Debug\Cursor.exe.config
+C:\Users\User\Desktop\Doing Myself\Cursor\Cursor\bin\Debug\Cursor.exe
+C:\Users\User\Desktop\Doing Myself\Cursor\Cursor\bin\Debug\Cursor.pdb
+C:\Users\User\Desktop\Doing Myself\Cursor\Cursor\obj\Debug\Cursor.exe
+C:\Users\User\Desktop\Doing Myself\Cursor\Cursor\obj\Debug\Cursor.pdb

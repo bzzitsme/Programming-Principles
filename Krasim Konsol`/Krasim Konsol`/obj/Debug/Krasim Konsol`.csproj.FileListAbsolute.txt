@@ -1,0 +1,7 @@
+C:\Users\User\Desktop\Doing Myself\Krasim Konsol`\Krasim Konsol`\obj\Debug\Krasim Konsol`.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Doing Myself\Krasim Konsol`\Krasim Konsol`\obj\Debug\Krasim Konsol`.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Doing Myself\Krasim Konsol`\Krasim Konsol`\bin\Debug\Krasim Konsol`.exe.config
+C:\Users\User\Desktop\Doing Myself\Krasim Konsol`\Krasim Konsol`\bin\Debug\Krasim Konsol`.exe
+C:\Users\User\Desktop\Doing Myself\Krasim Konsol`\Krasim Konsol`\bin\Debug\Krasim Konsol`.pdb
+C:\Users\User\Desktop\Doing Myself\Krasim Konsol`\Krasim Konsol`\obj\Debug\Krasim Konsol`.exe
+C:\Users\User\Desktop\Doing Myself\Krasim Konsol`\Krasim Konsol`\obj\Debug\Krasim Konsol`.pdb
