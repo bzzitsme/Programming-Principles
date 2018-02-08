@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<ArrayOfComplex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Complex>
+    <a>8</a>
+    <b>9</b>
+  </Complex>
+  <Complex>
+    <a>2</a>
+    <b>9</b>
+  </Complex>
+  <Complex>
+    <a>5</a>
+    <b>27</b>
+  </Complex>
+  <Complex>
+    <a>5</a>
+    <b>3</b>
+  </Complex>
+</ArrayOfComplex>

@@ -5,3 +5,10 @@ C:\Users\User\Desktop\Doing Myself\lab3farmanager\lab3farmanager\bin\Debug\lab3f
 C:\Users\User\Desktop\Doing Myself\lab3farmanager\lab3farmanager\bin\Debug\lab3farmanager.pdb
 C:\Users\User\Desktop\Doing Myself\lab3farmanager\lab3farmanager\obj\Debug\lab3farmanager.exe
 C:\Users\User\Desktop\Doing Myself\lab3farmanager\lab3farmanager\obj\Debug\lab3farmanager.pdb
+C:\Users\User\Desktop\PP2Labs\lab3farmanager\lab3farmanager\bin\Debug\lab3farmanager.exe.config
+C:\Users\User\Desktop\PP2Labs\lab3farmanager\lab3farmanager\bin\Debug\lab3farmanager.exe
+C:\Users\User\Desktop\PP2Labs\lab3farmanager\lab3farmanager\bin\Debug\lab3farmanager.pdb
+C:\Users\User\Desktop\PP2Labs\lab3farmanager\lab3farmanager\obj\Debug\lab3farmanager.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\PP2Labs\lab3farmanager\lab3farmanager\obj\Debug\lab3farmanager.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\PP2Labs\lab3farmanager\lab3farmanager\obj\Debug\lab3farmanager.exe
+C:\Users\User\Desktop\PP2Labs\lab3farmanager\lab3farmanager\obj\Debug\lab3farmanager.pdb

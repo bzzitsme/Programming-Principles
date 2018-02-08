@@ -1,0 +1,7 @@
+C:\Users\User\Desktop\lel\ComplexNumbersSterealization\ComplexNumbersSterealization\bin\Debug\ComplexNumbersSterealization.exe.config
+C:\Users\User\Desktop\lel\ComplexNumbersSterealization\ComplexNumbersSterealization\bin\Debug\ComplexNumbersSterealization.exe
+C:\Users\User\Desktop\lel\ComplexNumbersSterealization\ComplexNumbersSterealization\bin\Debug\ComplexNumbersSterealization.pdb
+C:\Users\User\Desktop\lel\ComplexNumbersSterealization\ComplexNumbersSterealization\obj\Debug\ComplexNumbersSterealization.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\lel\ComplexNumbersSterealization\ComplexNumbersSterealization\obj\Debug\ComplexNumbersSterealization.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\lel\ComplexNumbersSterealization\ComplexNumbersSterealization\obj\Debug\ComplexNumbersSterealization.exe
+C:\Users\User\Desktop\lel\ComplexNumbersSterealization\ComplexNumbersSterealization\obj\Debug\ComplexNumbersSterealization.pdb

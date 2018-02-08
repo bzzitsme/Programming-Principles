@@ -1,0 +1,7 @@
+C:\Users\User\Desktop\PP2Labs\ComplexNumbersMyself\ComplexNumbersMyself\obj\Debug\ComplexNumbersMyself.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\PP2Labs\ComplexNumbersMyself\ComplexNumbersMyself\obj\Debug\ComplexNumbersMyself.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\PP2Labs\ComplexNumbersMyself\ComplexNumbersMyself\bin\Debug\ComplexNumbersMyself.exe.config
+C:\Users\User\Desktop\PP2Labs\ComplexNumbersMyself\ComplexNumbersMyself\bin\Debug\ComplexNumbersMyself.exe
+C:\Users\User\Desktop\PP2Labs\ComplexNumbersMyself\ComplexNumbersMyself\bin\Debug\ComplexNumbersMyself.pdb
+C:\Users\User\Desktop\PP2Labs\ComplexNumbersMyself\ComplexNumbersMyself\obj\Debug\ComplexNumbersMyself.exe
+C:\Users\User\Desktop\PP2Labs\ComplexNumbersMyself\ComplexNumbersMyself\obj\Debug\ComplexNumbersMyself.pdb
