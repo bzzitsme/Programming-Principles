@@ -30,16 +30,24 @@ namespace ComplexNumbersSterealization
             FileStream fs = new FileStream(@"ezikk.xml", FileMode.Open, FileAccess.Read);
             XmlSerializer xs = new XmlSerializer(typeof(List<Complex>));
             vector1 = xs.Deserialize(fs) as List<Complex>;
-            for(int i = 0; i < vector1.Count; i++)
+            Console.WriteLine(vector1.Count);
+            string s = "";
+            for(int i = 0; i < vector1.Count; ++i)
             {
-                Console.WriteLine(vector1[i]);
+                s += vector1[i].ToString() + " ";
             }
+            
+            
+            File.WriteAllText(@"C:\Users\User\Desktop\PP2Labs\ComplexNumbersSterealization\ComplexNumbersSterealization\bin\Debug\kek.txt", s);
+
+               
+            
             fs.Close();
         }
         static void Main(string[] args)
         {
-            string text = Console.ReadLine();
-            string keks = Console.ReadLine();
+            string text = Console.ReadLine(); // 5/9
+            string keks = Console.ReadLine(); // 1/3
             string[] f1 = new string[2];
             f1 = text.Split('/');
             string[] f2 = new string[2];
