@@ -14,33 +14,33 @@ namespace Snake
         public ConsoleColor color;
         public void ReadLevel(int level)
         {
-            StreamReader sr = new StreamReader(@"C:\Users\User\Desktop\PP2Labs\Snake\level" + level + ".txt");
-            int n = int.Parse(sr.ReadLine());
-            for (int i = 0; i < n; i++)
+            StreamReader sr = new StreamReader(@"C:\Users\User\Desktop\lel\Snake\level" + level + ".txt"); // Считываем наш файл с уровнем
+            int n = int.Parse(sr.ReadLine()); // В нашем файле на 1ой строке будет число рядов
+            for (int i = 0; i < n; i++) // Проходимся по этому числу
             {
-                string s = sr.ReadLine();
+                string s = sr.ReadLine(); // Читаем наши ряды
                 for(int j = 0; j < s.Length; j++)
-                    if (s[j] == '#' || s[j] == '@' || s[j] == '&' || s[j] == '%')
-                        body.Add(new Point(j, i));
+                    if (s[j] == '#' || s[j] == '@' || s[j] == '&' || s[j] == '%') // Если какой-то знак соотвествует этому
+                        body.Add(new Point(j, i)); // Добавляем его
             }
-            sr.Close();
+            sr.Close(); // Закрываем поток
         }
-        public Wall(int level)
+        public Wall(int level)                                          
         {
-            body = new List<Point>();
-            sign = "#";
+            body = new List<Point>(); // Создаем лист из Поинта ( координаты )
+            sign = "#"; // Наши штучки для прорисовки карты
             if (level == 2) sign = "@";
             if (level == 3) sign = "%";
-            color = ConsoleColor.Blue;
-            ReadLevel(level);
+            color = ConsoleColor.Blue; // Наша стенка будет синей)
+            ReadLevel(level); // Функция которая помогает нам проверить нужный элемент и добавить его на карту
         }
         public void Draw()
         {
-            Console.ForegroundColor = color;
-            foreach (Point p in this.body)
+            Console.ForegroundColor = color; 
+            foreach (Point p in this.body) // Проходимся по стеночке
             {
-                Console.SetCursorPosition(p.x, p.y);
-                Console.Write(sign);
+                Console.SetCursorPosition(p.x, p.y); // Задаем курсор
+                Console.Write(sign); // Прорисовываем стеночку
             }
         }
     }
