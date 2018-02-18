@@ -1,0 +1,6 @@
+Sneakers 12 17500
+Jeans 5 5300
+T-Shirts 10 4200
+Jacket 0 29000
+Cap 1 3200
+Backpack 3 11100

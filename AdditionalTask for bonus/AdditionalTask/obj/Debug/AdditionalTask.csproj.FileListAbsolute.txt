@@ -1,0 +1,7 @@
+C:\Users\User\Desktop\lel\AdditionalTask\AdditionalTask\bin\Debug\AdditionalTask.exe.config
+C:\Users\User\Desktop\lel\AdditionalTask\AdditionalTask\bin\Debug\AdditionalTask.exe
+C:\Users\User\Desktop\lel\AdditionalTask\AdditionalTask\bin\Debug\AdditionalTask.pdb
+C:\Users\User\Desktop\lel\AdditionalTask\AdditionalTask\obj\Debug\AdditionalTask.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\lel\AdditionalTask\AdditionalTask\obj\Debug\AdditionalTask.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\lel\AdditionalTask\AdditionalTask\obj\Debug\AdditionalTask.exe
+C:\Users\User\Desktop\lel\AdditionalTask\AdditionalTask\obj\Debug\AdditionalTask.pdb

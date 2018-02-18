@@ -1,0 +1,10 @@
+	   Adidas
+
+Name       Amount     Price
+
+Sneakers   25         15000
+Jeans      0          5900 
+T-Shirts   3          4900
+Jacket     0          24000
+Cap        0          5100
+Backpack   7          7900
