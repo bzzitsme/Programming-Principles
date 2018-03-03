@@ -27,7 +27,7 @@ namespace AdditionalTask
         {
             Console.ForegroundColor = ConsoleColor.Green;
             Console.Clear();
-            StreamReader srr = new StreamReader(@"C:\Users\User\Desktop\lel\AdditionalTask\" + name + ".txt");
+            StreamReader srr = new StreamReader(@"C:\Users\Admin\Desktop\PP-2-Labs\AdditionalTask for bonus\" + name + ".txt");
             Console.WriteLine(srr.ReadToEnd());
             srr.Close();
             Console.ReadKey();

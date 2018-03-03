@@ -16,7 +16,7 @@ namespace AdditionalTask
             Console.SetCursorPosition(0, 0);
             int n = 6;
             List<string> v = new List<string>();
-            StreamReader sr = new StreamReader(@"C:\Users\User\Desktop\lel\AdditionalTask\shops.txt");
+            StreamReader sr = new StreamReader(@"C:\Users\Admin\Desktop\PP-2-Labs\AdditionalTask for bonus\shops.txt");
             int cnt = int.Parse(sr.ReadLine());
             Shop shop = new Shop();
             for (int i = 0; i < cnt; i++)

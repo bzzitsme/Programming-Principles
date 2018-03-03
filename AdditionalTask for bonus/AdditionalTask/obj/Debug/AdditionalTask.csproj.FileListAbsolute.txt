@@ -5,3 +5,10 @@ C:\Users\User\Desktop\lel\AdditionalTask\AdditionalTask\obj\Debug\AdditionalTask
 C:\Users\User\Desktop\lel\AdditionalTask\AdditionalTask\obj\Debug\AdditionalTask.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\lel\AdditionalTask\AdditionalTask\obj\Debug\AdditionalTask.exe
 C:\Users\User\Desktop\lel\AdditionalTask\AdditionalTask\obj\Debug\AdditionalTask.pdb
+C:\Users\Admin\Desktop\PP-2-Labs\AdditionalTask for bonus\AdditionalTask\bin\Debug\AdditionalTask.exe.config
+C:\Users\Admin\Desktop\PP-2-Labs\AdditionalTask for bonus\AdditionalTask\bin\Debug\AdditionalTask.exe
+C:\Users\Admin\Desktop\PP-2-Labs\AdditionalTask for bonus\AdditionalTask\bin\Debug\AdditionalTask.pdb
+C:\Users\Admin\Desktop\PP-2-Labs\AdditionalTask for bonus\AdditionalTask\obj\Debug\AdditionalTask.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\PP-2-Labs\AdditionalTask for bonus\AdditionalTask\obj\Debug\AdditionalTask.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\PP-2-Labs\AdditionalTask for bonus\AdditionalTask\obj\Debug\AdditionalTask.exe
+C:\Users\Admin\Desktop\PP-2-Labs\AdditionalTask for bonus\AdditionalTask\obj\Debug\AdditionalTask.pdb

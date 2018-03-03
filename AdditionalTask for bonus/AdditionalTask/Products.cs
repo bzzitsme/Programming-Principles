@@ -24,7 +24,7 @@ namespace AdditionalTask
         }
         public void Expensive()
         {
-            StreamReader sr = new StreamReader(@"C:\Users\User\Desktop\lel\AdditionalTask\the most expensive.txt");
+            StreamReader sr = new StreamReader(@"C:\Users\Admin\Desktop\PP-2-Labs\AdditionalTask for bonus\the most expensive.txt");
             Console.BackgroundColor = ConsoleColor.Black;
             Console.ForegroundColor = ConsoleColor.Gray;
             Console.Clear();
@@ -34,7 +34,7 @@ namespace AdditionalTask
         }
         public void Cheapest()
         {
-            StreamReader sr = new StreamReader(@"C:\Users\User\Desktop\lel\AdditionalTask\the chepeast.txt");
+            StreamReader sr = new StreamReader(@"C:\Users\Admin\Desktop\PP-2-Labs\AdditionalTask for bonus\the chepeast.txt");
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.Clear();
             Console.WriteLine(sr.ReadToEnd());
