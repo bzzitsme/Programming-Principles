@@ -61,7 +61,7 @@ namespace Shop
                 }
                 if(btn.Key == ConsoleKey.Enter)
                 {
-                    Program.basket.AddGoods(brands[pos].goods[curPos]);
+                    Basket.AddGoods(brands[pos].goods[curPos]);
                 }
             }
         }

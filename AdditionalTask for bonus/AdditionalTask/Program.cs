@@ -44,45 +44,45 @@ namespace AdditionalTask
                 int c3 = 0;
                 while (true)
                 {
-                    Console.ForegroundColor = ConsoleColor.Yellow;
-                    Console.Clear();
-                    Console.WriteLine("1) Show all shops");
-                    Console.ForegroundColor = ConsoleColor.Blue;
-                    Console.WriteLine("2) Show the cheapest shop");
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("3) Show most expensive shop");
-                    Console.ForegroundColor = ConsoleColor.Gray;
-                    Console.WriteLine("4) Exit");
+                    Console.Clear();
+                    Console.WriteLine("a) Show all shops");
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("b) Show the cheapest shop");
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("c) Show most expensive shop");
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("d) Exit");
                     ConsoleKeyInfo Key = Console.ReadKey();
-                    if (Key.Key == ConsoleKey.NumPad1)
+                    if (Key.Key == ConsoleKey.A)
                     {
                         shop.ShowShop(v);
                         ConsoleKeyInfo lel = Console.ReadKey();
-                        if (lel.Key == ConsoleKey.NumPad1)
+                        if (lel.Key == ConsoleKey.A)
                         {
                             string name = "Zara";
                             shop.OpenShop(name);
                         }
-                        if(lel.Key == ConsoleKey.NumPad2)
+                        if(lel.Key == ConsoleKey.B)
                         {
                             string name = "Adidas";
                             shop.OpenShop(name);
                         }
-                        if(lel.Key == ConsoleKey.NumPad3)
+                        if(lel.Key == ConsoleKey.C)
                         {
                             string name = "Nike";
                             shop.OpenShop(name);
                         }
                     }
-                    if (Key.Key == ConsoleKey.NumPad2)
+                    if (Key.Key == ConsoleKey.B)
                     {
                         product.Cheapest();
                     }
-                    if (Key.Key == ConsoleKey.NumPad3)
+                    if (Key.Key == ConsoleKey.C)
                     {
                         product.Expensive();
                     }
-                    if (Key.Key == ConsoleKey.NumPad4)
+                    if (Key.Key == ConsoleKey.D)
                     {
                         return;
                     }

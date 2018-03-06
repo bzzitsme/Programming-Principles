@@ -53,6 +53,11 @@ namespace Shop
             {
                 ConsoleKeyInfo btn = Console.ReadKey();
                 Console.Clear();
+                if (btn.Key == ConsoleKey.Tab)
+                {
+                    Basket.ShowBasket();
+                    Console.ReadKey();
+                }
                 if (btn.Key == ConsoleKey.UpArrow)
                 {
                     pos--;
@@ -77,14 +82,16 @@ namespace Shop
                 if (btn.Key == ConsoleKey.K)
                 {
                     Console.Clear();
-                    for(int i = 0;i < basket.basket.Count;i ++)
+                    for(int i = 0;i < Basket.basket.Count;i ++)
                     {
-                        Console.WriteLine(basket.basket[i]);
+                        Console.WriteLine(Basket.basket[i]);
                     }
                     Console.ReadKey();
                 }
                 cur.ShowBrands(pos);
                 SaveData(cur);
+
+              
             }
         }
         public static void SaveData(Market saveMarket)
