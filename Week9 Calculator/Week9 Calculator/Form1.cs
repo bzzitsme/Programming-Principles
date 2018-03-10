@@ -215,6 +215,11 @@ namespace Week9_Calculator
         private void ce_Click(object sender, EventArgs e)
         {
             label.Text = "";
+            operation = "";
+            if(label.Text == "")
+            {
+                label.Text = "0";
+            }
         }
 
         private void btnsqrt_Click(object sender, EventArgs e)
@@ -251,7 +256,10 @@ namespace Week9_Calculator
 
         private void btndot_Click(object sender, EventArgs e)
         {
-
+            if (!label.Text.Contains(",")) ;
+            {
+                label.Text += ",";
+            }
         }
 
         private void multiply_Click(object sender, EventArgs e)
