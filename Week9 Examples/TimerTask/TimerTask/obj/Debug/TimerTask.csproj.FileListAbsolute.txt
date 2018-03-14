@@ -1,0 +1,10 @@
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\TimerTask\TimerTask\bin\Debug\TimerTask.exe.config
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\TimerTask\TimerTask\bin\Debug\TimerTask.exe
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\TimerTask\TimerTask\bin\Debug\TimerTask.pdb
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\TimerTask\TimerTask\obj\Debug\TimerTask.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\TimerTask\TimerTask\obj\Debug\TimerTask.Form1.resources
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\TimerTask\TimerTask\obj\Debug\TimerTask.Properties.Resources.resources
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\TimerTask\TimerTask\obj\Debug\TimerTask.csproj.GenerateResource.Cache
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\TimerTask\TimerTask\obj\Debug\TimerTask.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\TimerTask\TimerTask\obj\Debug\TimerTask.exe
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\TimerTask\TimerTask\obj\Debug\TimerTask.pdb

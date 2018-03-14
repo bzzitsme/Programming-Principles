@@ -1,0 +1,10 @@
+C:\Users\Admin\Desktop\PP-2-Labs\KorobkiSNeba\KorobkiSNeba\obj\Debug\KorobkiSNeba.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\PP-2-Labs\KorobkiSNeba\KorobkiSNeba\obj\Debug\KorobkiSNeba.Form1.resources
+C:\Users\Admin\Desktop\PP-2-Labs\KorobkiSNeba\KorobkiSNeba\obj\Debug\KorobkiSNeba.Properties.Resources.resources
+C:\Users\Admin\Desktop\PP-2-Labs\KorobkiSNeba\KorobkiSNeba\obj\Debug\KorobkiSNeba.csproj.GenerateResource.Cache
+C:\Users\Admin\Desktop\PP-2-Labs\KorobkiSNeba\KorobkiSNeba\obj\Debug\KorobkiSNeba.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\PP-2-Labs\KorobkiSNeba\KorobkiSNeba\bin\Debug\KorobkiSNeba.exe.config
+C:\Users\Admin\Desktop\PP-2-Labs\KorobkiSNeba\KorobkiSNeba\bin\Debug\KorobkiSNeba.exe
+C:\Users\Admin\Desktop\PP-2-Labs\KorobkiSNeba\KorobkiSNeba\bin\Debug\KorobkiSNeba.pdb
+C:\Users\Admin\Desktop\PP-2-Labs\KorobkiSNeba\KorobkiSNeba\obj\Debug\KorobkiSNeba.exe
+C:\Users\Admin\Desktop\PP-2-Labs\KorobkiSNeba\KorobkiSNeba\obj\Debug\KorobkiSNeba.pdb

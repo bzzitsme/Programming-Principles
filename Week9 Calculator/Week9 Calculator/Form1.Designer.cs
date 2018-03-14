@@ -184,6 +184,7 @@
             this.c.TabIndex = 13;
             this.c.Text = "C";
             this.c.UseVisualStyleBackColor = true;
+            this.c.Click += new System.EventHandler(this.c_Click);
             // 
             // btn6
             // 
@@ -241,6 +242,13 @@
             this.divide.Text = "/";
             this.divide.UseVisualStyleBackColor = true;
             this.divide.Click += new System.EventHandler(this.divide_Click);
+            // 
+            // label1
+            // 
+            this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(100, 23);
+            this.label1.TabIndex = 34;
             // 
             // btnpercent
             // 
@@ -317,6 +325,7 @@
             this.btndelete.TabIndex = 32;
             this.btndelete.Text = "del";
             this.btndelete.UseVisualStyleBackColor = true;
+            this.btndelete.Click += new System.EventHandler(this.btndelete_Click);
             // 
             // label
             // 
@@ -328,6 +337,13 @@
             this.label.Size = new System.Drawing.Size(0, 13);
             this.label.TabIndex = 33;
             this.label.Click += new System.EventHandler(this.label_Click);
+            // 
+            // label2
+            // 
+            this.label2.Location = new System.Drawing.Point(0, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(100, 23);
+            this.label2.TabIndex = 0;
             // 
             // Form1
             // 

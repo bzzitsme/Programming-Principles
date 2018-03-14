@@ -1,0 +1,10 @@
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\Trackbar Task\Trackbar Task\bin\Debug\Trackbar Task.exe.config
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\Trackbar Task\Trackbar Task\bin\Debug\Trackbar Task.exe
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\Trackbar Task\Trackbar Task\bin\Debug\Trackbar Task.pdb
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\Trackbar Task\Trackbar Task\obj\Debug\Trackbar Task.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\Trackbar Task\Trackbar Task\obj\Debug\Trackbar_Task.Form1.resources
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\Trackbar Task\Trackbar Task\obj\Debug\Trackbar_Task.Properties.Resources.resources
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\Trackbar Task\Trackbar Task\obj\Debug\Trackbar Task.csproj.GenerateResource.Cache
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\Trackbar Task\Trackbar Task\obj\Debug\Trackbar Task.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\Trackbar Task\Trackbar Task\obj\Debug\Trackbar Task.exe
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\Trackbar Task\Trackbar Task\obj\Debug\Trackbar Task.pdb

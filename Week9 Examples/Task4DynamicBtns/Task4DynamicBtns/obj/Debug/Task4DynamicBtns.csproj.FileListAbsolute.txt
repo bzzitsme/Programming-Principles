@@ -1,0 +1,10 @@
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\Task4DynamicBtns\Task4DynamicBtns\bin\Debug\Task4DynamicBtns.exe.config
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\Task4DynamicBtns\Task4DynamicBtns\bin\Debug\Task4DynamicBtns.exe
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\Task4DynamicBtns\Task4DynamicBtns\bin\Debug\Task4DynamicBtns.pdb
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\Task4DynamicBtns\Task4DynamicBtns\obj\Debug\Task4DynamicBtns.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\Task4DynamicBtns\Task4DynamicBtns\obj\Debug\Task4DynamicBtns.Form1.resources
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\Task4DynamicBtns\Task4DynamicBtns\obj\Debug\Task4DynamicBtns.Properties.Resources.resources
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\Task4DynamicBtns\Task4DynamicBtns\obj\Debug\Task4DynamicBtns.csproj.GenerateResource.Cache
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\Task4DynamicBtns\Task4DynamicBtns\obj\Debug\Task4DynamicBtns.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\Task4DynamicBtns\Task4DynamicBtns\obj\Debug\Task4DynamicBtns.exe
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\Task4DynamicBtns\Task4DynamicBtns\obj\Debug\Task4DynamicBtns.pdb

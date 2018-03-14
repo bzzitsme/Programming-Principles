@@ -1,0 +1,10 @@
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\sample\sample\bin\Debug\sample.exe.config
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\sample\sample\bin\Debug\sample.exe
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\sample\sample\bin\Debug\sample.pdb
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\sample\sample\obj\Debug\sample.Form1.resources
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\sample\sample\obj\Debug\sample.Properties.Resources.resources
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\sample\sample\obj\Debug\sample.csproj.GenerateResource.Cache
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\sample\sample\obj\Debug\sample.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\sample\sample\obj\Debug\sample.exe
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\sample\sample\obj\Debug\sample.pdb
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\sample\sample\obj\Debug\sample.csprojResolveAssemblyReference.cache

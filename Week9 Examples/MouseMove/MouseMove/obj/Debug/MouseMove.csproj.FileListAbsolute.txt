@@ -1,0 +1,10 @@
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\MouseMove\MouseMove\bin\Debug\MouseMove.exe.config
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\MouseMove\MouseMove\bin\Debug\MouseMove.exe
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\MouseMove\MouseMove\bin\Debug\MouseMove.pdb
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\MouseMove\MouseMove\obj\Debug\MouseMove.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\MouseMove\MouseMove\obj\Debug\MouseMove.Form1.resources
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\MouseMove\MouseMove\obj\Debug\MouseMove.Properties.Resources.resources
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\MouseMove\MouseMove\obj\Debug\MouseMove.csproj.GenerateResource.Cache
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\MouseMove\MouseMove\obj\Debug\MouseMove.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\MouseMove\MouseMove\obj\Debug\MouseMove.exe
+C:\Users\Admin\Desktop\PP-2-Labs\Week9 Examples\MouseMove\MouseMove\obj\Debug\MouseMove.pdb
