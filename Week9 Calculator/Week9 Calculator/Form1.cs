@@ -13,11 +13,15 @@ namespace Week9_Calculator
     public partial class Form1 : Form
     {
         public static double firstNum = 0, secondNum = 0, result = 0;
+        public static double lmao = 0;
         public static string operation = "";
         public static string incursio = "";
+        int test = 0;
         public Form1()
         {
             InitializeComponent();
+            label.Text = "0";
+            incursio = "1";
         }
         public static void p(double a, double b)
         {
@@ -38,6 +42,11 @@ namespace Week9_Calculator
 
         private void btn1_Click(object sender, EventArgs e)
         {
+            if(lmao == 1)
+            {
+                label.Text = "";
+                lmao = 0;
+            }
             if(incursio == "1")
             {
                 label.Text = "";
@@ -49,6 +58,11 @@ namespace Week9_Calculator
 
         private void btn2_Click(object sender, EventArgs e)
         {
+            if (lmao == 1)
+            {
+                label.Text = "";
+                lmao = 0;
+            }
             if (incursio == "1")
             {
                 label.Text = "";
@@ -60,6 +74,11 @@ namespace Week9_Calculator
 
         private void btn3_Click(object sender, EventArgs e)
         {
+            if (lmao == 1)
+            {
+                label.Text = "";
+                lmao = 0;
+            }
             if (incursio == "1")
             {
                 label.Text = "";
@@ -71,11 +90,6 @@ namespace Week9_Calculator
 
         private void btn0_Click(object sender, EventArgs e)
         {
-            if (incursio == "1")
-            {
-                label.Text = "";
-                incursio = "";
-            }
             Button btn = sender as Button;
             if (label.Text == "0")
             {
@@ -85,10 +99,22 @@ namespace Week9_Calculator
             {
                 label.Text += btn.Text;
             }
+            if(test == 1)
+            {
+                label.Text = "";
+                label.Text += btn.Text;
+                test = 0;
+            }
+            
         }
 
         private void btn4_Click(object sender, EventArgs e)
         {
+            if (lmao == 1)
+            {
+                label.Text = "";
+                lmao = 0;
+            }
             if (incursio == "1")
             {
                 label.Text = "";
@@ -100,6 +126,11 @@ namespace Week9_Calculator
 
         private void btn5_Click(object sender, EventArgs e)
         {
+            if (lmao == 1)
+            {
+                label.Text = "";
+                lmao = 0;
+            }
             if (incursio == "1")
             {
                 label.Text = "";
@@ -111,6 +142,11 @@ namespace Week9_Calculator
 
         private void btn6_Click(object sender, EventArgs e)
         {
+            if (lmao == 1)
+            {
+                label.Text = "";
+                lmao = 0;
+            }
             if (incursio == "1")
             {
                 label.Text = "";
@@ -122,6 +158,11 @@ namespace Week9_Calculator
 
         private void btn7_Click(object sender, EventArgs e)
         {
+            if (lmao == 1)
+            {
+                label.Text = "";
+                lmao = 0;
+            }
             if (incursio == "1")
             {
                 label.Text = "";
@@ -133,6 +174,11 @@ namespace Week9_Calculator
 
         private void btn8_Click(object sender, EventArgs e)
         {
+            if (lmao == 1)
+            {
+                label.Text = "";
+                lmao = 0;
+            }
             if (incursio == "1")
             {
                 label.Text = "";
@@ -144,6 +190,11 @@ namespace Week9_Calculator
 
         private void btn9_Click(object sender, EventArgs e)
         {
+            if (lmao == 1)
+            {
+                label.Text = "";
+                lmao = 0;
+            }
             if (incursio == "1")
             {
                 label.Text = "";
@@ -162,19 +213,23 @@ namespace Week9_Calculator
         {
             firstNum = double.Parse(label.Text);
             operation = "p";
-            label.Text = "";
+            lmao = 1;
         }
 
         private void minus_Click(object sender, EventArgs e)
         {
             firstNum = double.Parse(label.Text);
             operation = "min";
-            label.Text = "";
+            lmao = 1;
         }
 
         private void btnequal_Click(object sender, EventArgs e)
         {
             secondNum = double.Parse(label.Text);
+            if(operation == "div" && label.Text == "0")
+            {
+                label.Text = "Деление на ноль невозможно";
+            }
             if(operation == "min")
             {
                 min(firstNum, secondNum);
@@ -282,18 +337,32 @@ namespace Week9_Calculator
             incursio = "1";
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (label.Text == "0")
+            {
+                incursio = "1";
+            }
+            else if (label.Text != "0")
+            {
+                
+            }
+            label.Text = "-" + label.Text;
+        }
+
         private void multiply_Click(object sender, EventArgs e)
         {
             firstNum = double.Parse(label.Text);
             operation = "multi";
-            label.Text = "";
+            lmao = 1;
         }
 
         private void divide_Click(object sender, EventArgs e)
         {
             firstNum = double.Parse(label.Text);
             operation = "div";
-            label.Text = "";
+            lmao = 1;
+            test = 1;
         }
     }
 }
