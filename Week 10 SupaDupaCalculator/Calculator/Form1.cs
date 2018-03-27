@@ -67,6 +67,21 @@ namespace Calculator
                     case "/":
                         result = firstNumber / secondNumber;
                         break;
+                    case "Mod":
+                        result = firstNumber % secondNumber;
+                        break;
+                    case "%%":
+                        result = firstNumber * secondNumber / 100;
+                        break;
+                    case "x^y":
+                        result = Math.Pow(firstNumber, secondNumber);
+                        break;
+                    case "sqrt^x":
+                        result = Math.Pow(secondNumber, 1 / firstNumber);
+                        break;
+                    case "logxy":
+                        result = Math.Log10(secondNumber) / Math.Log10(firstNumber);
+                        break;
                 }
                 display.Text = result + "";
                 firstNumber = result;
@@ -90,11 +105,22 @@ namespace Calculator
                     result = firstNumber * secondNumber;
                     break;
                 case "/":
-                    if(secondNumber == 0)
-                    {
-                        display.Text = "Деление на ноль невозможно";
-                    }
                     result = firstNumber / secondNumber;
+                    break;
+                case "Mod":
+                    result = firstNumber % secondNumber;
+                    break;
+                case "%%":
+                    result = firstNumber * secondNumber / 100;
+                    break;
+                case "x^y":
+                    result = Math.Pow(firstNumber, secondNumber);
+                    break;
+                case "sqrt^x":
+                    result = Math.Pow(secondNumber, 1 / firstNumber);
+                    break;
+                case "logxy":
+                    result = Math.Log10(secondNumber) / Math.Log10(firstNumber);
                     break;
             }
             display.Text = result + "";
@@ -124,6 +150,45 @@ namespace Calculator
                     secondNumber = -(secondNumber);
                     etoRepchik = 0;
                     break;
+                case "sinx":
+                    secondNumber = Math.Sin(secondNumber);
+                    etoRepchik = 1;
+                    break;
+                case "cosx":
+                    secondNumber = Math.Cos(secondNumber);
+                    etoRepchik = 1;
+                    break;
+                case "tanx":
+                    secondNumber = Math.Tan(secondNumber);
+                    etoRepchik = 1;
+                    break;
+                case "cotx":
+                    secondNumber = 1 / Math.Tan(secondNumber);
+                    etoRepchik = 1;
+                    break;
+                case "!":
+                    int factorial = 1;
+                    for(int i = 1; i <= secondNumber; i++)
+                    {
+                        factorial *= i;
+                    }
+                    secondNumber = factorial;
+                    etoRepchik = 1;
+                    break;
+                case "lnx":
+                    secondNumber = Math.Log(secondNumber);
+                    etoRepchik = 1;
+                    break;
+                case "e^x":
+                    secondNumber = Math.Exp(secondNumber);
+                    etoRepchik = 1;
+                    break;
+                case "10^x":
+                    secondNumber = Math.Pow(10, secondNumber);
+                    etoRepchik = 1;
+                    break;
+
+                    
             }
             display.Text = secondNumber + "";
         }

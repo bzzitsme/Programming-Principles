@@ -46,7 +46,7 @@ namespace KorobkiSNeba
             {
                 for(int i = 0; i < vector.Count(); i++)
                 {
-                    vector[i].Location = new Point(vector[i].Location.X, vector[i].Location.Y + 3);
+                    vector[i].Location = new Point(vector[i].Location.X, vector[i].Location.Y + 2);
                     if (vector[i].Location.Y == 300)
                     {
                         vector[i].Hide();
@@ -54,12 +54,12 @@ namespace KorobkiSNeba
                         score += 1;
                         label1.Text = "Score " + score;
                     }
-                    else if (vector[i].Location.Y > button1.Location.Y + 35)
+                    /* else if (vector[i].Location.Y > button1.Location.Y + 35)
                     {
                         vector[i].Hide();
                         vector.RemoveAt(i);
-                    }
-                    else if (Math.Abs(vector[i].Location.Y - button1.Location.Y) <= 35 && Math.Abs(vector[i].Location.X - button1.Location.X) <= 35)
+                    } */
+                    else if (Math.Abs(vector[i].Location.Y - button1.Location.Y) <= 34 && Math.Abs(vector[i].Location.X - button1.Location.X) <= 34)
                     {
                         timer1.Stop();
                         timer2.Stop();
