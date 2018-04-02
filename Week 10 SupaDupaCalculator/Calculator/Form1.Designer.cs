@@ -90,12 +90,12 @@
             // 
             // btnBack
             // 
-            this.btnBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnBack.Location = new System.Drawing.Point(161, 38);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(48, 41);
             this.btnBack.TabIndex = 2;
-            this.btnBack.Text = "⮾";
+            this.btnBack.Text = "Back";
             this.btnBack.UseVisualStyleBackColor = true;
             this.btnBack.Click += new System.EventHandler(this.operationClear_Click);
             // 

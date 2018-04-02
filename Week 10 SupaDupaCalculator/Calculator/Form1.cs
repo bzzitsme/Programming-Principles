@@ -16,6 +16,7 @@ namespace Calculator
         string operation = "";
         double etoRepchik = 0;
         string state = "";
+        double entermod = 1;
         public Form1()
         {
             InitializeComponent();
@@ -44,6 +45,7 @@ namespace Calculator
             if (btn.Text == ",")
             {
                 if (!display.Text.Contains(",")) display.Text += btn.Text;
+                if(display.Text == ",") display.Text = "0,";
             }
             else display.Text += btn.Text;
         }
@@ -69,6 +71,7 @@ namespace Calculator
                         break;
                     case "Mod":
                         result = firstNumber % secondNumber;
+                        entermod = 2;
                         break;
                     case "%%":
                         result = firstNumber * secondNumber / 100;
@@ -84,7 +87,7 @@ namespace Calculator
                         break;
                 }
                 display.Text = result + "";
-                firstNumber = result;
+                //firstNumber = result;
             }
             operation = btn.Text;
             firstNumber = double.Parse(display.Text);
@@ -109,6 +112,7 @@ namespace Calculator
                     break;
                 case "Mod":
                     result = firstNumber % secondNumber;
+                    entermod = 1;
                     break;
                 case "%%":
                     result = firstNumber * secondNumber / 100;
@@ -124,7 +128,7 @@ namespace Calculator
                     break;
             }
             display.Text = result + "";
-            firstNumber = result;
+            //firstNumber = result;
 
         }
         private void operationEqualOthers_Click(object sender, EventArgs e)
@@ -151,19 +155,23 @@ namespace Calculator
                     etoRepchik = 0;
                     break;
                 case "sinx":
-                    secondNumber = Math.Sin(secondNumber);
+                    secondNumber = Math.Sin(secondNumber * Math.PI / 180);
                     etoRepchik = 1;
                     break;
                 case "cosx":
-                    secondNumber = Math.Cos(secondNumber);
+                    if(secondNumber == 90)
+                    {
+                        secondNumber = 0;
+                    }
+                    else secondNumber = Math.Cos(secondNumber * Math.PI / 180);
                     etoRepchik = 1;
                     break;
                 case "tanx":
-                    secondNumber = Math.Tan(secondNumber);
+                    secondNumber = Math.Tan(secondNumber * Math.PI / 180);
                     etoRepchik = 1;
                     break;
                 case "cotx":
-                    secondNumber = 1 / Math.Tan(secondNumber);
+                    secondNumber = 1 / Math.Tan(secondNumber * Math.PI / 180);
                     etoRepchik = 1;
                     break;
                 case "!":
