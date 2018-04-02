@@ -123,6 +123,16 @@ namespace Paint.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap rectangle {
+            get {
+                object obj = ResourceManager.GetObject("rectangle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap red {
             get {
                 object obj = ResourceManager.GetObject("red", resourceCulture);

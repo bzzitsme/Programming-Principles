@@ -110,5 +110,8 @@
   <ItemGroup>
     <None Include="Resources\solid_coffeeyellow_fffc8f_shop_preview.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rectangle.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

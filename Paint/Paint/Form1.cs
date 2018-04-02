@@ -16,20 +16,36 @@ namespace Paint
         Bitmap bmp;
         Graphics bmpGraphics;
         Point prev, cur;
-        string operation = "";
         int size = 1;
         Pen pen = new Pen(Color.Black, 1);
         bool click = false;
+        Tool tool;
+        Queue<Point> q;
+        Color clr = Color.Black;
+        Color org;
+        Color curr;
+        public enum Tool
+        {
+            PEN,
+            RECTANGLE,
+            ELLIPSE,
+            ERASE,
+            LINE,
+            FILL
+        }
         public Form1()
         {
             InitializeComponent();
+            tool = Tool.PEN;
             bmp = new Bitmap(pictureBox1.Width, pictureBox1.Height);
             pictureBox1.Image = bmp;
             bmpGraphics = Graphics.FromImage(bmp);
+            q = new Queue<Point>();
+            bmpGraphics.Clear(Color.White);
         }
         private void pictureBox1_Paint(object sender, PaintEventArgs e)
         {
-            if(operation == "rectangle")
+            if(click && tool == Tool.RECTANGLE)
             {
                 
                 int x = Math.Min(prev.X, cur.X);
@@ -37,23 +53,19 @@ namespace Paint
                 int w = Math.Abs(prev.X - cur.X);
                 int h = Math.Abs(prev.Y - cur.Y);
                 e.Graphics.DrawRectangle(pen, x, y, w, h);
-                lol = true;
-                pictureBox1.Refresh();
             }
-            else if(operation == "circle")
+            if(click && tool == Tool.ELLIPSE)
             {
                 int x = Math.Min(prev.X, cur.X);
                 int y = Math.Min(prev.Y, cur.Y);
                 int w = Math.Abs(prev.X - cur.X);
                 int h = Math.Abs(prev.Y - cur.Y);
                 e.Graphics.DrawEllipse(pen, x, y, w, h);
-                lol = true;
                 pictureBox1.Refresh();
             }
-            else if(operation == "line")
+            if(click && tool == Tool.LINE)
             {
                 e.Graphics.DrawLine(pen, prev, cur);
-                lol = true;
                 pictureBox1.Refresh();
             }
         }
@@ -61,21 +73,57 @@ namespace Paint
         private void pictureBox1_MouseMove(object sender, MouseEventArgs e)
         {
             cur = e.Location;
-            if(click)
+            if(click && tool == Tool.PEN)
             {
-                if(operation == "" || operation == "pen")
-                {
                     bmpGraphics.DrawLine(pen, prev.X, prev.Y, cur.X, cur.Y);
                     prev = cur;
-                    pictureBox1.Refresh();
+            }
+            pictureBox1.Refresh();
+        }
+
+        private void pictureBox1_MouseDown(object sender, MouseEventArgs e)
+        {
+            click = true;
+            prev = e.Location;
+            if(tool == Tool.FILL)
+            {
+                q.Enqueue(e.Location);
+                org = bmp.GetPixel(e.Location.X, e.Location.Y);
+                curr = clr;
+                while(q.Count > 0)
+                {
+                    
+                    int x = q.First().X;
+                    int y = q.First().Y;
+                    q.Dequeue();
+                    Step(x + 1, y);
+                    Step(x, y + 1);
+                    Step(x - 1, y);
+                    Step(x, y - 1);
                 }
             }
+            pictureBox1.Image = bmp;
+        }
+        void Step(int x, int y)
+        {
+            if (x >= bmp.Width)
+                return;
+            if (x < 0)
+                return;
+            if (y >= bmp.Height)
+                return;
+            if (y < 0)
+                return;
+            if (bmp.GetPixel(x, y) != org)
+                return;
+            bmp.SetPixel(x, y, curr);
+            q.Enqueue(new Point(x, y));
         }
 
         private void pictureBox1_MouseUp(object sender, MouseEventArgs e)
         {
             click = false;
-            if(operation == "rectangle")
+            if(tool == Tool.RECTANGLE)
             {
                 int x = Math.Min(prev.X, cur.X);
                 int y = Math.Min(prev.Y, cur.Y);
@@ -83,7 +131,7 @@ namespace Paint
                 int h = Math.Abs(prev.Y - cur.Y);
                 bmpGraphics.DrawRectangle(pen, x, y, w, h);
             }
-            else if(operation == "circle")
+            if(tool == Tool.ELLIPSE)
             {
                 int x = Math.Min(prev.X, cur.X);
                 int y = Math.Min(prev.Y, cur.Y);
@@ -91,7 +139,7 @@ namespace Paint
                 int h = Math.Abs(prev.Y - cur.Y);
                 bmpGraphics.DrawEllipse(pen, x, y, w, h);
             }
-            else if(operation == "line")
+            if(tool == Tool.LINE)
             {
                 bmpGraphics.DrawLine(pen, prev, cur);
             }
@@ -100,88 +148,99 @@ namespace Paint
 
         private void button2_Click(object sender, EventArgs e)
         {
-            operation = "rectangle";
+            tool = Tool.RECTANGLE;
         }
 
         private void button12_Click(object sender, EventArgs e)
         {
             pen = new Pen(Color.DarkBlue, size);
+            clr = Color.DarkBlue;
         }
 
         private void button14_Click(object sender, EventArgs e)
         {
             pen = new Pen(Color.Green, size);
+            clr = Color.Green;
         }
 
         private void button15_Click(object sender, EventArgs e)
         {
             pen = new Pen(Color.Yellow, size);
+            clr = Color.Yellow;
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
             pen = new Pen(Color.Black, size);
+            clr = Color.Black;
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
             pen = new Pen(Color.Red, size);
+            clr = Color.Red;
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
             pen = new Pen(Color.Blue, size);
+            clr = Color.Blue;
         }
 
         private void button10_Click(object sender, EventArgs e)
         {
             pen = new Pen(Color.White, size);
+            clr = Color.White;
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
             pen = new Pen(Color.Gray, size);
+            clr = Color.Gray;
         }
 
         private void button11_Click(object sender, EventArgs e)
         {
             pen = new Pen(Color.YellowGreen, size);
+            clr = Color.YellowGreen;
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
             pen = new Pen(Color.Magenta, size);
+            clr = Color.Magenta;
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            operation = "circle";
+            tool = Tool.ELLIPSE;
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            operation = "fill";
+            tool = Tool.FILL;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            operation = "erase";
+            tool = Tool.ERASER;
         }
 
         private void button13_Click(object sender, EventArgs e)
         {
-            operation = "pen";
+            tool = Tool.PEN;
+        }
+
+        private void trackBar1_Scroll(object sender, EventArgs e)
+        {
+            size = trackBar1.Value;
+            pen = new Pen(clr, size);
         }
 
         private void button16_Click(object sender, EventArgs e)
         {
-            operation = "line";
+            tool = Tool.LINE;
         }
 
-        private void pictureBox1_MouseDown(object sender, MouseEventArgs e)
-        {
-            click = true;
-            prev = e.Location;
-        }
     }
 }

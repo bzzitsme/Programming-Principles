@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.trackBar1 = new System.Windows.Forms.TrackBar();
             this.button13 = new System.Windows.Forms.Button();
+            this.button16 = new System.Windows.Forms.Button();
             this.button15 = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
@@ -44,8 +44,8 @@
             this.button7 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button16 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -59,16 +59,6 @@
             this.button1.Text = "Eraser";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(137, 12);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(51, 30);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Rectangle";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -94,8 +84,9 @@
             // 
             this.trackBar1.Location = new System.Drawing.Point(362, 12);
             this.trackBar1.Name = "trackBar1";
-            this.trackBar1.Size = new System.Drawing.Size(110, 45);
+            this.trackBar1.Size = new System.Drawing.Size(159, 45);
             this.trackBar1.TabIndex = 5;
+            this.trackBar1.Scroll += new System.EventHandler(this.trackBar1_Scroll);
             // 
             // button13
             // 
@@ -106,6 +97,16 @@
             this.button13.Text = "Pen";
             this.button13.UseVisualStyleBackColor = true;
             this.button13.Click += new System.EventHandler(this.button13_Click);
+            // 
+            // button16
+            // 
+            this.button16.Location = new System.Drawing.Point(70, 48);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(43, 30);
+            this.button16.TabIndex = 17;
+            this.button16.Text = "Line";
+            this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
             // button15
             // 
@@ -210,6 +211,16 @@
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(137, 12);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(51, 30);
+            this.button2.TabIndex = 2;
+            this.button2.Text = "Rectangle";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // pictureBox1
             // 
             this.pictureBox1.Location = new System.Drawing.Point(12, 104);
@@ -221,16 +232,6 @@
             this.pictureBox1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseDown);
             this.pictureBox1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseMove);
             this.pictureBox1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseUp);
-            // 
-            // button16
-            // 
-            this.button16.Location = new System.Drawing.Point(70, 48);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(43, 30);
-            this.button16.TabIndex = 17;
-            this.button16.Text = "Line";
-            this.button16.UseVisualStyleBackColor = true;
-            this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
             // Form1
             // 
