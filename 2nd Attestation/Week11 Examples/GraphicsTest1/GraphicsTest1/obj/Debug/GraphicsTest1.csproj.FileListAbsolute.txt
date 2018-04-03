@@ -1,0 +1,20 @@
+C:\Users\Admin\source\repos\GraphicsTest1\GraphicsTest1\obj\Debug\GraphicsTest1.csprojResolveAssemblyReference.cache
+C:\Users\Admin\source\repos\GraphicsTest1\GraphicsTest1\obj\Debug\GraphicsTest1.Form1.resources
+C:\Users\Admin\source\repos\GraphicsTest1\GraphicsTest1\obj\Debug\GraphicsTest1.Properties.Resources.resources
+C:\Users\Admin\source\repos\GraphicsTest1\GraphicsTest1\obj\Debug\GraphicsTest1.csproj.GenerateResource.Cache
+C:\Users\Admin\source\repos\GraphicsTest1\GraphicsTest1\obj\Debug\GraphicsTest1.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\GraphicsTest1\GraphicsTest1\bin\Debug\GraphicsTest1.exe.config
+C:\Users\Admin\source\repos\GraphicsTest1\GraphicsTest1\bin\Debug\GraphicsTest1.exe
+C:\Users\Admin\source\repos\GraphicsTest1\GraphicsTest1\bin\Debug\GraphicsTest1.pdb
+C:\Users\Admin\source\repos\GraphicsTest1\GraphicsTest1\obj\Debug\GraphicsTest1.exe
+C:\Users\Admin\source\repos\GraphicsTest1\GraphicsTest1\obj\Debug\GraphicsTest1.pdb
+C:\Users\Admin\Desktop\PP-2-Labs\Week11 Examples\GraphicsTest1\GraphicsTest1\bin\Debug\GraphicsTest1.exe.config
+C:\Users\Admin\Desktop\PP-2-Labs\Week11 Examples\GraphicsTest1\GraphicsTest1\bin\Debug\GraphicsTest1.exe
+C:\Users\Admin\Desktop\PP-2-Labs\Week11 Examples\GraphicsTest1\GraphicsTest1\bin\Debug\GraphicsTest1.pdb
+C:\Users\Admin\Desktop\PP-2-Labs\Week11 Examples\GraphicsTest1\GraphicsTest1\obj\Debug\GraphicsTest1.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\PP-2-Labs\Week11 Examples\GraphicsTest1\GraphicsTest1\obj\Debug\GraphicsTest1.Form1.resources
+C:\Users\Admin\Desktop\PP-2-Labs\Week11 Examples\GraphicsTest1\GraphicsTest1\obj\Debug\GraphicsTest1.Properties.Resources.resources
+C:\Users\Admin\Desktop\PP-2-Labs\Week11 Examples\GraphicsTest1\GraphicsTest1\obj\Debug\GraphicsTest1.csproj.GenerateResource.Cache
+C:\Users\Admin\Desktop\PP-2-Labs\Week11 Examples\GraphicsTest1\GraphicsTest1\obj\Debug\GraphicsTest1.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\PP-2-Labs\Week11 Examples\GraphicsTest1\GraphicsTest1\obj\Debug\GraphicsTest1.exe
+C:\Users\Admin\Desktop\PP-2-Labs\Week11 Examples\GraphicsTest1\GraphicsTest1\obj\Debug\GraphicsTest1.pdb

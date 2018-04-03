@@ -1,0 +1,10 @@
+C:\Users\Admin\Desktop\PP-2-Labs\Week11 Examples\GraphicsExample2\GraphicsExample2\obj\Debug\GraphicsExample2.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\PP-2-Labs\Week11 Examples\GraphicsExample2\GraphicsExample2\obj\Debug\GraphicsExample2.Form1.resources
+C:\Users\Admin\Desktop\PP-2-Labs\Week11 Examples\GraphicsExample2\GraphicsExample2\obj\Debug\GraphicsExample2.Properties.Resources.resources
+C:\Users\Admin\Desktop\PP-2-Labs\Week11 Examples\GraphicsExample2\GraphicsExample2\obj\Debug\GraphicsExample2.csproj.GenerateResource.Cache
+C:\Users\Admin\Desktop\PP-2-Labs\Week11 Examples\GraphicsExample2\GraphicsExample2\obj\Debug\GraphicsExample2.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\PP-2-Labs\Week11 Examples\GraphicsExample2\GraphicsExample2\bin\Debug\GraphicsExample2.exe.config
+C:\Users\Admin\Desktop\PP-2-Labs\Week11 Examples\GraphicsExample2\GraphicsExample2\bin\Debug\GraphicsExample2.exe
+C:\Users\Admin\Desktop\PP-2-Labs\Week11 Examples\GraphicsExample2\GraphicsExample2\bin\Debug\GraphicsExample2.pdb
+C:\Users\Admin\Desktop\PP-2-Labs\Week11 Examples\GraphicsExample2\GraphicsExample2\obj\Debug\GraphicsExample2.exe
+C:\Users\Admin\Desktop\PP-2-Labs\Week11 Examples\GraphicsExample2\GraphicsExample2\obj\Debug\GraphicsExample2.pdb
