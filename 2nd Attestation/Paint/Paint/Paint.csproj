@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4B766919-AAF2-47DE-9DF2-3BFEA2C433B8}</ProjectGuid>
+    <ProjectGuid>{E9DAD036-FED6-4EC7-AF4F-3B77740F1CA4}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Paint</RootNamespace>
     <AssemblyName>Paint</AssemblyName>
@@ -51,7 +51,6 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Paint.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -81,25 +80,22 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\black.jpg" />
+    <None Include="Resources\white.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\blue.jpg" />
+    <None Include="Resources\cyan.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\gray.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\magenta.jpg" />
+    <None Include="Resources\white1.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\red.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\white.png" />
+    <None Include="Resources\darkred.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\yellow green.jpg" />
+    <None Include="Resources\blue.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\darkblue.png" />
@@ -108,10 +104,64 @@
     <None Include="Resources\green.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\solid_coffeeyellow_fffc8f_shop_preview.png" />
+    <None Include="Resources\darkgreen.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\rectangle.png" />
+    <None Include="Resources\greenyellow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aqua.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aquamarine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aliceblue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\azure.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Brown.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IndianRed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gold.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\darkviolet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pencil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rectanglle.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fill.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Erase.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ellipse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Coloroo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\itachi-uchiha-theme-sz3.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

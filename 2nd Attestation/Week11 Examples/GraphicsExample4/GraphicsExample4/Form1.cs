@@ -30,6 +30,8 @@ namespace GraphicsExample4
                 t.direction = 1;
             if (e.KeyCode == Keys.D)
                 t.direction = 0;
+            if (e.KeyCode == Keys.OemMinus)
+                t.direction = 1;
         }
 
         private void timer1_Tick(object sender, EventArgs e)

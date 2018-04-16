@@ -85,6 +85,7 @@ namespace Calculator
             n1 = double.Parse(display.Text);
             op = "+";
             operation = false;
+            label2.Text = op;
             text = false;
         }
 
@@ -93,6 +94,7 @@ namespace Calculator
             n1 = double.Parse(display.Text);
             op = "-";
             operation = false;
+            label2.Text = op;
             text = false;
         }
 
@@ -102,6 +104,7 @@ namespace Calculator
             op = "*";
             operation = false;
             text = false;
+            label2.Text = op;
         }
 
         private void divide_Click(object sender, EventArgs e)
@@ -110,6 +113,7 @@ namespace Calculator
             op = "/";
             operation = false;
             text = false;
+            label2.Text = op;
         }
 
         private void button25_Click(object sender, EventArgs e)
@@ -179,14 +183,17 @@ namespace Calculator
                     case "+":
                         display.Text = n1 + n2 + "";
                         testForZero = 0;
+                        label2.Text = op;
                         break;
                     case "-":
                         display.Text = n1 - n2 + "";
                         testForZero = 0;
+                        label2.Text = op;
                         break;
                     case "*":
                         display.Text = n1 * n2 + "";
                         testForZero = 0;
+                        label2.Text = op;
                         break;
                     case "/":
                         if(n2 == 0)
@@ -194,6 +201,7 @@ namespace Calculator
                             MessageBox.Show("Impossible");
                         }
                         else display.Text = n1 / n2 + "";
+                        label2.Text = op;
                         testForZero = 0;
                         break;
                     case "%":
@@ -373,6 +381,16 @@ namespace Calculator
         {
             display.Text = Math.Exp(double.Parse(display.Text)) + "";
             testForZero = 0;
+        }
+
+        private void button24_Click(object sender, EventArgs e)
+        {
+            display.Text = Math.Pow(10, double.Parse(display.Text)) + "";
+            testForZero = 0;
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
         }
 
         private void btn(string s)

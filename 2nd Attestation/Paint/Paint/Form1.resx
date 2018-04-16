@@ -117,10 +117,48 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="colorDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <metadata name="saveFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>157, 17</value>
+  <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>138, 17</value>
   </metadata>
+  <metadata name="saveFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>278, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Button_Pen.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAOEAAADgCAMAAADCMfHtAAAABGdBTUEAALGPC/xhBQAAATtQTFRF////
+        /8M0/9Jo4q84zMzM129u4pZj2o6N56mAyFlXz4BLAAAA/89Z/8Iw4q83/9Bh4KkZ6LM3x1RSyM3U2Hl4
+        8Lk24awt/8Q502lo/9Fj2IWE/8Yw2Gdm1dXVy9DQ87s26+vr5aJ1/8Ii65xn/9d5/9mCzHU3/+ey9uXl
+        /+Cb4JNl/+vB5rtb9eXE68h/2YtX8dqr5pxd/+Kk/9yNz7Ky7tGW89+4+erh6MJv/+3H/9+Z7qhS9MBz
+        7MuH9NvQ8tG+2ptB+blA+cZj6aFZ77d47LF87sSp8rlr67eV87FK6qtwQ0ND2Zx2srKyt3lQ4bKXuYdm
+        yqyZrX9hkV8+i4uLoGE23KSDcHBwVzomNCIXXDkh3qU80YRE15My+OvSzr+/3Z6d2Mqu1M2+yZWU5LSz
+        8tPS4JeX8tzb37NPyH5peQAABUtJREFUeF7t3GtXE1cUxvGQDAlMKGK0EG4piKY0tVJ6UyqXqmC1orWt
+        rdpqEUXt9/8E3WfmycyeyUxCfdOzN/v/isDMrPVb55zZ6Fpasaz/vfWTk7fr+Fpl6wuNxsJC4y0+6ssB
+        oxaUGhMgEd9p3KsMSClcxizQLSN+oKU8sHFxaVzVTh0Ejo+3l97jpwoqAlJLag5jCVAPsRRIxBNcI7oh
+        QB3E98OAGjbq8pucMAuUT1wOOq9Ai8sDiSh6aCwHQZY4CCSi4NHvgNQ78IqBFC6XF4BBAF8ZsN3ADdJK
+        gH1iCVDszGDA4GgocHy8JfEocmBEHAJst9q4S1BZYNA5Aqao9uRkS9w+zQGJ+M0SPAMRkIi4UUoDwCHE
+        CChtEQuApcQYSOFeERUCS4gJsCXol7cSYCExAUrapqXAAmIKnGy9wv3eNwQ4QGRAOWu4dQxMcRliBijl
+        TbM1Nf8amOIYMQOU8kvN1lS1Wj0lUS6wWoWlJBAlA+cvw1JS56gtG3gaonAgEa9cAKa4zhG9O/tJBBLx
+        2nBiECREmUAi7owitmOiVGC1OnZjFPGiI8oFzn10aRSxs9ASDRwbuzTqLHYasoGnIb7BA3yvBHgK4gqe
+        4HmlwJFE+cARRA3AoUQdwCFELUAiFs9FIcDPRwNLiJqARLw6QNQFJOJtwPppA7pVBC1OH3Dsk9l/gHNp
+        BNZqjKgTWKtN1/CXjFqBRJx97V6peoGOeHxBNZCIM8e6gfS2wQN8bxAITUFnC3gVD/A9A7IM6GOfGjDN
+        gD5mQJYBfcyALPXAj4FzGdCXDMgyoI8ZkGVAHzMgKwO8gQf4ngFZBvQx9cCvDJhmQB8zIMuAPmZAlgF9
+        bAAITFEG9DEDslQA54EpyoA+ZkCWTOA5yNCpgdfwAN9TD/zMgGkG9DH9wA8dEwb0JP1A7Wfw+/8APA+c
+        y4C+ZEBWBriDB/ieAVlnCjhjQE8yIMuAPvZ1DngOmKIM6GMGZBnQxwzIOlvAb/EA3zMgy4A+ZkCWDmD5
+        /7ZiQC8zIMuAPqYeeMWAaQb0MQOyDOhjBmQZ0McMyDpbwC/xAN8zIMuAPqYfOA8ZMiAyoC9dNmCaAX0s
+        D5wyYJwBfcmALAP6mAFZBvSxDwZ+hwf4Xv6fmasDVm5DhvQBd7NLqA9YuZc5hQqBlZ+4UCNw74AJNQIr
+        ExP729vb+/v7BwcHPy5CUxADTosCXl+dSKuXC8UCK3eBc/U2S4VygRW2hKv1O2VCwcBdJqz3bpYIp6Gj
+        pAEr96Cj6vXefYhySQayTbpKwlsgZRMN3AOPqpMQpGyigTQM+xGwXjgsZAPTYUh7tF74Ks0Av8B9ckqG
+        YQSsF7xKhQPT90wELHiVSgcmwzACMuHiIq3m3Jx4YDIM4z3qBr6jzd26f/POJn3s/ZAKZQKTTRoDyVTf
+        3FwjWa/nPm2EqVAocA/CSJdvIwzDv/pCocD+MMQezUa+MJQO7A9DmHhuAcPwBYRSgf1hCBQv8oX9YygW
+        iPfM4B6NF5CKj6FcYDwMB4CJD8dQLhDDEK4kBoyOoWBgvElzS8h87hhOz87U5AKjYZgDgoZevHy58zeu
+        lphbwewezSxgGHYP93CpzKJhCFocYHHdjbvXcaXUfnn8+NdD2Fx8Abvdn6XzqCb12xp43NftHu7iGtE9
+        dMJH8LENSrsTV0jvgRNGf0ZiC9gNNezOuBUHbK65+guoZXeiJ5Hw2bPnzefw9WSPhoEiYNSfjqdod6IA
+        POr3bvcPTbsTPQWP0rY7EXTN5pMVfEdZ0TBsNp8G+KwvNwwfPMQHjdEw1Lo7UaB3d56JKpV/AZ03Jzwi
+        87ZZAAAAAElFTkSuQmCC
+</value>
+  </data>
 </root>

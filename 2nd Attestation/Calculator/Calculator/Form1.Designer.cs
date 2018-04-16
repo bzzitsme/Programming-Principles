@@ -71,6 +71,7 @@
             this.button16 = new System.Windows.Forms.Button();
             this.button29 = new System.Windows.Forms.Button();
             this.button36 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -328,6 +329,7 @@
             this.button24.TabIndex = 21;
             this.button24.Text = "10^x";
             this.button24.UseVisualStyleBackColor = true;
+            this.button24.Click += new System.EventHandler(this.button24_Click);
             // 
             // button25
             // 
@@ -533,11 +535,20 @@
             this.button36.UseVisualStyleBackColor = true;
             this.button36.Click += new System.EventHandler(this.button36_Click);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(13, 95);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(0, 13);
+            this.label2.TabIndex = 48;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(395, 509);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.button36);
             this.Controls.Add(this.button29);
             this.Controls.Add(this.button16);
@@ -583,6 +594,7 @@
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -633,6 +645,7 @@
         private System.Windows.Forms.Button button16;
         private System.Windows.Forms.Button button29;
         private System.Windows.Forms.Button button36;
+        private System.Windows.Forms.Label label2;
     }
 }
 
